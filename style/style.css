@@ -1,0 +1,93 @@
+body {
+    margin: auto;
+/*max-width:850px;*/
+    font-family: Georgia;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 30px;
+    font-size: 35px;
+    font-family: Georgia;
+    max-width: 700px;
+    margin: auto;
+    padding-top: 28px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+    padding-bottom: 3px;
+}
+
+img.drug {
+  max-width: 15%;
+  max-height: 15%;
+}
+h3 {
+  font-size: 16px;
+  font-weight: 800;
+  margin-top: 20px;
+  padding-bottom: 3px;
+}
+
+
+p.byline {
+    text-align: center;
+    font-size: 14px;
+}
+
+a:link, a:visited{
+  color: #6534ff;
+	text-decoration: none;
+}
+
+p.description a:link{
+  color: #6534ff;
+}
+
+#image-container {
+  position:fixed;
+  width: 70vw;
+  left:50%;
+  transform: translateX(-50%);
+  top:0;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.row img {
+  /*max-width: : 25%;
+  max-height: 25%;*/
+  max-width: 10vw;
+  max-height: 10vw;
+  transition: opacity 1s;
+}
+
+#content {
+  position: relative;
+  max-width: 650px;
+  margin: auto;
+  font-family: Georgia;
+  font-weight: 100;
+  margin-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#russia, #beginning, #ukraine, #usa {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
