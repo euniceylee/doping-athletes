@@ -7,7 +7,6 @@ var russianwaypoint = new Waypoint({
 })
 
 function show(targetClass) {
-  console.log(targetClass);
   [...document.querySelectorAll('#image-container img')].forEach(i => {
     if (i.className.includes(targetClass) && i.className.includes('hidden')) {
       i.className = i.className.replace(/hidden/i, 'show');
