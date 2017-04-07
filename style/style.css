@@ -4,6 +4,7 @@ body {
     font-family: Georgia;
     font-weight: 100;
     margin-bottom: 50px;
+    background-color: #131313;
 }
 
 h1 {
@@ -15,6 +16,8 @@ h1 {
     margin: auto;
     padding-top: 28px;
     text-align: center;
+    color: white;
+
 }
 
 h2 {
@@ -22,6 +25,7 @@ h2 {
     font-weight: 800;
     margin-top: 20px;
     padding-bottom: 3px;
+    color: white;
 }
 
 img.drug {
@@ -33,6 +37,7 @@ h3 {
   font-weight: 800;
   margin-top: 20px;
   padding-bottom: 3px;
+  color: white;
 }
 
 
@@ -80,10 +85,11 @@ p.description a:link{
   margin-bottom: 50px;
   padding-left: 10px;
   padding-right: 10px;
+  color: white;
 }
 
 .hidden {
-  opacity: 0;
+  opacity: 0.1;
 }
 
 #russia, #beginning, #ukraine, #usa {
